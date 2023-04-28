@@ -29,9 +29,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
+        permissions:
+          contents: write
         uses: actions/checkout@v3
 
       - name: Deploy 🚀
+        permissions:
+          contents: write
         id: deployment
         uses: JamesIves/github-pages-deploy-action@v4
         with:
