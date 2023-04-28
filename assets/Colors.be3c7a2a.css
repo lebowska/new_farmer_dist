@@ -1,0 +1,1 @@
+.bf--double-bounce-1,.bf--double-bounce-2{width:100%;height:100%;border-radius:50%;opacity:.6;position:absolute;top:0;left:0;animation:bf--bounce-animation 2s infinite ease-in-out}.bf--double-bounce-2{animation-delay:-1s}@keyframes bf--bounce-animation{0%,to{transform:scale(0)}50%{transform:scale(1)}}
