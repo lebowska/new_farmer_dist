@@ -1,1 +1,0 @@
-import{_ as e}from"./MainTile-17768b5f.js";import{d as s,o as t,c as l,a,y as o}from"./index-bc88b9a5.js";const c={class:"flex h-full w-full flex-col items-start px-2 sm:px-4 lg:px-8"},f={class:"flex w-full space-x-6 pb-8 pt-4 h-full"},m=s({__name:"index",setup(_){return(i,n)=>(t(),l("div",c,[a("div",f,[o(e,{title:"Attività",class:"w-full h-full"})])]))}});export{m as default};
