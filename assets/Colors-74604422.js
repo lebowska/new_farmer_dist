@@ -1,1 +1,0 @@
-function l(r){let e="rgb("+getComputedStyle(document.documentElement).getPropertyValue("--"+r)+")";return e=e.replace("( ","(").replace(/ /g,","),e}function o(r,e){let t="rgb("+getComputedStyle(document.documentElement).getPropertyValue("--"+r)+")";return t=t.replace("( ","(").replace(/ /g,","),t=t.replace(")",", "+e+")"),t}export{o as a,l as g};
